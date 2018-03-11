@@ -2,7 +2,8 @@
 {
     using System;
     using System.ComponentModel;
-    using Base.StateMachine.Models;
+    using Base.StateMachine.Models.Base;
+    using Base.StateMachine.Models.V1;
     using Base.Test.Models;
     using NUnit.Framework;
 

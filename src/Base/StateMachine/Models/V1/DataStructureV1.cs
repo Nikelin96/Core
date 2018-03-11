@@ -1,6 +1,7 @@
-﻿namespace Base.StateMachine.Models
+﻿namespace Base.StateMachine.Models.V1
 {
     using System;
+
     public class DataStructureV1
     {
         public Guid GuidValue { get; set; }

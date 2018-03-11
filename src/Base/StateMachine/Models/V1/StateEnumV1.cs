@@ -1,4 +1,4 @@
-﻿namespace Base.StateMachine.Models
+﻿namespace Base.StateMachine.Models.V1
 {
     public enum StateEnumV1
     {

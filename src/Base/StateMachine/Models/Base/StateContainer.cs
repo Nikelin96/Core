@@ -1,7 +1,8 @@
-﻿namespace Base.StateMachine.Models
+﻿namespace Base.StateMachine.Models.Base
 {
     using System;
     using System.ComponentModel;
+    using global::Base.StateMachine.Models.Interfaces;
 
     public class StateContainer<StateData> : IStateContainer<StateData>
     {

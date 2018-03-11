@@ -52,12 +52,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="StateMachine\Models\DataStructureV1.cs" />
-    <Compile Include="StateMachine\Models\IStateContainer.cs" />
-    <Compile Include="StateMachine\Models\StateContainer.cs" />
+    <Compile Include="StateMachine\Models\Base\BaseState.cs" />
+    <Compile Include="StateMachine\Models\Base\StateContainer.cs" />
+    <Compile Include="StateMachine\Models\Interfaces\IStateContainer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="StateMachine\Models\StateEnumV1.cs" />
-    <Compile Include="StateMachine\StateMachineV1.cs" />
+    <Compile Include="StateMachine\Models\V1\DataStructureV1.cs" />
+    <Compile Include="StateMachine\Models\V1\StateEnumV1.cs" />
+    <Compile Include="StateMachine\Models\V1\StateMachineV1.cs" />
+    <Compile Include="StateMachine\Models\V1\States\StateAnimating.cs" />
+    <Compile Include="StateMachine\Models\V1\States\StateDisabled.cs" />
+    <Compile Include="StateMachine\Models\V1\States\StateEnabled.cs" />
+    <Compile Include="StateMachine\Models\V1\States\StateIdle.cs" />
+    <Compile Include="StateMachine\Models\V1\States\StateStart.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

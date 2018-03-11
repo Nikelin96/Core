@@ -3,6 +3,8 @@
     using System;
     using Base.StateMachine;
     using Base.StateMachine.Models;
+    using Base.StateMachine.Models.Interfaces;
+    using Base.StateMachine.Models.V1;
     using NUnit.Framework;
     using NUnit.Framework.Internal;
     using Rhino.Mocks;

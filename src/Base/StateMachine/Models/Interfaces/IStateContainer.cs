@@ -1,6 +1,7 @@
-﻿namespace Base.StateMachine.Models
+﻿namespace Base.StateMachine.Models.Interfaces
 {
     using System;
+    using global::Base.StateMachine.Models.Base;
 
     public interface IStateContainer<StateData>
     {
